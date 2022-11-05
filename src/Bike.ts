@@ -12,13 +12,8 @@ class Bike extends Vehicle {
 
   // status
   status(): void {
-    console.log(
-      ` → Color: ${super.getColor()}
-    → Max Speed: ${super.getMaxSpeed()}
-    → Speed: ${super.getSpeed()}
-    → Cadence: ${this.cadence}
-  `
-    )
+    super.status()
+    console.log(`    → Cadence: ${this.cadence}`)
   }
 
   // getter cadence

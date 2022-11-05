@@ -20,11 +20,9 @@ class Vehicle {
   // status
   status(): void {
     console.log(
-      ` → Color: ${this.color}
+      `    → Color: ${this.color}
     → Max Speed: ${this.maxSpeed}
-    → Speed: ${this.speed}
-
-  `
+    → Speed: ${this.speed} `
     )
   }
 
